@@ -3,50 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Alma</title>
   </head>
-  <body class="bg-[#f7f7f7] flex justify-center items-center h-screen">
-    <div class="bg-white lg:w-[640px] w-full p-8">
-      <div class="flex items-center gap-3 py-5 px-6">
+  <body
+    style="
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Inter', sans-serif;
+    "
+  >
+    <div
+      style="
+        background-color: white;
+        width: 100%;
+        max-width: 640px;
+        padding: 32px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          padding: 20px 24px;
+        "
+      >
         <img src="/logo.svg" alt="logo" />
-        <h4 class="text-2xl text-[#111111] font-semibold tracking-[-0.72px]">
+        <h4
+          style="
+            font-size: 24px;
+            font-weight: 600;
+            color: #111111;
+            letter-spacing: -0.72px;
+            font-family: 'Outfit', sans-serif;
+          "
+        >
           ALMA APP
         </h4>
       </div>
-      <div class="p-6">
+      <div style="padding: 24px">
         <h4
-          class="text-2xl font-semibold text-[#0E0D0D] leading-[34px] tracking-[-0.36px]"
+          style="
+            font-weight: 600;
+            color: #0e0d0d;
+            line-height: 34px;
+            letter-spacing: -0.36px;
+            font-size: 24px;
+          "
         >
           Email Verification
         </h4>
       </div>
       <div
-        class="p-6 text-[#383636] font-normal leading-6 tracking-[-0.16px] text-base"
+        style="
+          padding: 24px;
+          color: #383636;
+          font-weight: normal;
+          line-height: 24px;
+          letter-spacing: -0.16px;
+          font-size: 16px;
+        "
       >
-        <p class="mb-5">Hi Sharuhk,</p>
-        <p class="mb-5">
+        <p style="margin-bottom: 20px">Hi Sharuhk,</p>
+        <p style="margin-bottom: 20px">
           Hi Sharuhk,You requested a password reset for your Alma account.
           Please click the link below to reset your password:
         </p>
-        <p class="mb-5 text-[#007BFF]">xxxxxxxxxxxxxxxxxxx</p>
-        <p class="mb-5">
+        <p style="margin-bottom: 20px; color: #007bff">xxxxxxxxxxxxxxxxxxx</p>
+        <p style="margin-bottom: 20px">
           If you did not request a password reset, you can safely ignore this
           email and make sure you can still login to your account.
         </p>
         <p>Thanks,Alma.</p>
       </div>
-      <div class="p-6 font-normal text-sm text-[#292D32]">
-        <p class="mb-5">
+      <div
+        style="
+          padding: 24px;
+          font-weight: normal;
+          font-size: 14px;
+          color: #292d32;
+        "
+      >
+        <p style="margin-bottom: 20px">
           If you’d rather not receive this kind of email, you can
-          <span class="text-[#007BFF]"
+          <span style="color: #007bff"
             >unsubscribe or manage your email preferences.</span
           >
         </p>
-        <p class="mb-5">© 2024 Alma App</p>
+        <p style="margin-bottom: 20px">© 2024 Alma App</p>
       </div>
-      <div class="flex items-center gap-6 p-6">
+      <div style="display: flex; align-items: center; gap: 24px; padding: 24px">
         <img src="twitter.svg" alt="twitter" />
         <img src="linkedin.svg" alt="linkedin" />
         <img src="instagram.svg" alt="instagram" />
